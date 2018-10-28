@@ -27,7 +27,7 @@ namespace Company.Function
 
             return name != null
                 ? (ActionResult)new OkObjectResult($"Hello, {name} \n mvh Gustav")
-                : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
+                : new BadRequestObjectResult("Please pass a name on the query string or in the request buddy");
         }
     }
 }
